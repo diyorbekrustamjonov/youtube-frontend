@@ -1,4 +1,4 @@
-const backend = "https://youtube-backend-uz.herokuapp.com";
+const backend = "http://localhost:5000";
 async function request(route, method, body){
 	try{
 		let headers = {

@@ -131,6 +131,8 @@ async function renderVideos({userId, videoId}){
 		iframeTime.classList.add("uploaded-time")
 
 		download.classList.add("download")
+		//download with click download
+		download.setAttribute("download", "")
 		download.setAttribute("href", videos[i].video)
 		downloadSpan.textContent = videos[i].videoSize + " MB"
 		downloadImg.src = "./img/download.png"
