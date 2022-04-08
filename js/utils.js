@@ -1,4 +1,4 @@
-const backend = "http://localhost:5000";
+const backend = "https://youtube-clone-uz.herokuapp.com";
 async function request(route, method, body){
 	try{
 		let headers = {
